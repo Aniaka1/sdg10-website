@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG10 WEBSITE</title>
+    <!--link for css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--link for boxi icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--link for js file-->
+<script src="script.js" defer></script>
+<!--link for scrollreveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--link for gsap-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<!--link for lenis smooth scrolling-->
+<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script> 
+<!--link for split type-->
+<script src="https://unpkg.com/split-type"></script>
+</head>
+<body>
+<!--navbar-->
+<nav>
+    <div class="navbar-logo">
+        <a href="/" class="brand">
+            <img src="images/logo.jpg" alt="sdg10 logo">
+        </a>
+    </div>
+    <ul class="navbar-menu">
+        <div class="close-btn">&times;</div>
+        <li class="navbar-menu-item">
+            <a href="index.html#home" class="navbar-menu-link">HOME</a>
+        </li>
+        <li class="navbar-menu-item">
+            <a href="index.html#about" class="navbar-menu-link">ABOUT</a>
+        </li>
+        <li class="navbar-menu-item">
+            <a href="#" class="navbar-menu-link">QUESTIONNAIRE</a>
+        </li>
+        <li class="navbar-menu-item">
+            <a href="#" class="navbar-menu-link">TEAM</a>
+        </li>
+    </ul>
+    <div class="navbar-btn">
+        <button class="btn-1" id="menu-btn" onclick="window.location.href='question.html'">LEARN MORE</button>
+    </div>
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
+<!--navbar ends-->
+<!--hero section-->
+<div class="hero-page" id="home">
+    <div class="hero-headlines">
+        <h1>An awareness campaign regarding the  <b class="accent">displaced persons living in Belgium</b></h1>
+        <p>Here at <b class="accent">SDG10</b> we are focused on creating an awarenes about the displaced persons in Belgium.</p>
+        <div class="download-btn">
+            <img src="images/applestore.png" alt="apple download" class="apple-download">
+            <img src="images/amazon.png" alt="amazon download" class="amazon-download">
+        </div>
+    </div>
+    <img src="images/inequality-pix1.jpg" alt="hero page img" class="hero-page-img">
+</div>
+<!--hero section ends-->
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="about-container">
+            <h1>We are looking out for displaced persons in Belgium</h1>
+            <p class="about-subline">Find out more about the displaced persons living in Belgium and how to help reduce it.</p>
+            <div class="about-info">
+                <div class="about-info-item">
+                    <img src="images/campaign-pix1.jpg" alt="about img">
+                    <div class="info-item-msg">
+                        <h2>Reaching Out</h2>
+                    <p>We stand out in our unique ability to reach out to target audience about the condition of displaced persons in Belgium.</p>
+                    </div>
+                </div>
+                <div class="about-info-item">
+                    <img src="images/campaign-pix2.jpg" alt="about img">
+                    <div class="info-item-msg">
+                        <h2>Moving forward</h2>
+                    <p>We thrive to create suggestions of ways to tackle the problem of displaced persons living in Belgium.</p>
+                    </div>
+                </div>
+                <div class="about-info-item">
+                    <img src="images/campaign-pix3.jpg" alt="about img">
+                    <div class="info-item-msg">
+                        <h2>Action</h2>
+                    <p>Beyond just providing data and feedback, we believe in taking action in ensuring an improvement the situation of displaced persons in Belgium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section ends-->
+    <!--review section-->
+    <section class="review" id="testimonials">
+        <h1>Feedback From Anonymous Persons ⭐</h1>
+        <div class="review-container">
+            <!--review #1-->
+            <div class="review-item">
+                <p>
+                    My interaction wth the campaign organisers exposed me to real insights about the condition of displaced persons in Belgium.
+                </p>
+                <div class="review-people">
+                    <img src="images/inequality-pix1.jpg" alt="review pix">
+                    <h5>Anonymous.</h5>
+                </div>
+            </div>
+            <!--review #2-->
+            <div class="review-item">
+                <p>
+                    I can't recommend interacting with them enough! Their humanitarian work is a pleasure to behold and should be encouraged.
+                </p>
+                <div class="review-people">
+                    <img src="images/inequality-pix2.jpg" alt="review pix">
+                    <h5>Anonymous.</h5>
+                </div>
+            </div>
+            <!--review #3-->
+            <div class="review-item">
+                <p>
+                 This campaign exceeded all my expectations! their flexibility to interact with everybody irrespective of their educational or social backgroud was awesome.
+                </p>
+                <div class="review-people">
+                    <img src="images/inequality-pix3.jpg" alt="review pix">
+                    <h5>Anonymous.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--review section ends-->
+    <!--footer section-->
+    <footer class="index-footer">
+        <div class="callout">
+            <h2>Let's interact with the sdg10 campaign today!</h2>
+            <p class="callout-description">
+                Need more information about displaced persons in Belgium. Do well to reach out to us in order to learn more.
+            </p>
+            <div class="callout-buttons">
+                <button class="btn-1" id="menu-btn" onclick="window.location.href='question.html'">LEARN MORE</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="/" class="footer-brand">
+                <img src="images/logo.jpg" alt=" footer logo">
+            </a>
+            <div class="socials">
+                <a href="/" class="social-item">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class='bx bxl-tiktok' ></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class='bx bxl-telegram' ></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!--footer section ends-->
+</body>
+</html>
