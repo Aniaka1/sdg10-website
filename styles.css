@@ -805,3 +805,208 @@ form{
     width:100%;
 }
 }    
+@media (max-width:427px) and (min-width:0px){
+    nav{
+        width:80%;
+        padding:20px 30px;
+    }
+    .navbar-menu{
+        position:fixed;
+        background-color:var(--grey);
+        display:grid;
+        grid-column:auto;
+        top:0;
+        right:-100%;
+        width:80%;
+        height:100vh;
+        padding:30px;
+        transition:0.3s ease;
+    }
+    .navbar-menu.active{
+        right:0;
+    }
+
+    .btn-1{
+        width:100px;
+    }
+
+    .close-btn{
+        position:absolute;
+        top:30px;
+        left:30px;
+        font-size:20px;
+        display:block;
+        cursor:pointer;
+    }
+    .menu-toggle{
+        display:flex;
+        flex-direction:column;
+        width:30px;
+        align-items:center;
+        justify-content:space-around;
+        height:30px;
+        cursor: pointer;
+    }
+    .menu-toggle .bar{
+        width:30px;
+        height:3px;
+        background-color:var(--black);
+        border-radius:3px;
+    }
+    .navbar-btn{
+        margin-left:100px;
+    }
+    .navbar-btn .btn-1{
+        display:block;
+        width:80px;
+        font-size:12px;
+    }
+    
+    /*hero section*/
+.hero-page{
+    display:flex;
+    flex-direction:column;
+    padding:0px 20px;
+    margin-top:120px;
+}
+
+.hero-headlines{
+    width:100%;
+}
+.hero-headlines h1{
+    text-align:center;
+    font-size:24px;
+}
+.hero-headlines p{
+    text-align:center;
+    font-size:16px;
+}
+.download-btn{
+    margin:0px auto;
+    margin-top:12px;
+}
+.apple-download{
+    width:99px;
+    height:34px;
+}
+.amazon-download{
+    width:99px;
+    height:34px;
+}
+.hero-page-img{
+    width:80%;
+    border-radius:30px;
+    margin-top:40px;
+}
+/*about section*/
+.about{
+    margin-top:110px;
+}
+.about-container{
+    font-size:20px;
+    width:100%;
+    margin-top:48px;
+}
+.about-container h1{
+    font-size:20px;
+    width:100%;
+    margin-top:48px;
+}
+.about-subline{
+    width:100%;
+    font-size:15px;
+}
+.about-info{
+    top:240px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+/*review*/
+.review{
+    padding:0px 20px;
+    margin-top:1100px;
+}
+.review h1{
+    font-size:35px;
+    text-align:center;
+}
+.review-item{
+    width:70%;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.review-item p{
+    font-size:14px;
+    text-align:center;
+}
+/*footer*/
+.callout{
+    padding:32px;
+}
+.callout h2{
+    font-size:24px;
+    width:100%;
+}
+.callout p{
+    font-size:12px;
+}
+.callout-buttons{
+    flex-direction:column;
+}
+.footer-bottom{
+    position:absolute;
+    bottom:-250px;
+    z-index:999;
+    flex-direction:column;
+    padding:10px;
+    height:50px;
+    justify-content:center;
+    align-items:center;
+}
+.footer-brand{
+    font-size:20px;
+}
+.social-item{
+    width:20px;
+    height:20px;
+    border-radius:100%;
+}
+.social-item i{
+    font-size:15px;
+}
+/*contact*/
+.contact{
+    padding:0px 20px;
+}
+.contact h1{
+    font-size:24px;
+    text-align:center;
+}
+.contact p{
+    width:100%;
+    font-size:15px;
+}
+form{
+    width:90%;
+    align-items:center;
+}
+.car-select{
+    width:100%;
+    height:410px;
+    flex-direction:column;
+}
+.car-select-date{
+    width:190px;
+}
+.contact-form{
+    width:100%;
+}
+.contact-form .btn-2{
+    width:100%;
+}
+}    
